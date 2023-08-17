@@ -84,7 +84,7 @@
             var logo = document.querySelector(".site-logo img");
 
             var blackLogoSrc = "images/ASEN2.png"; // Replace with the actual path to your black logo
-            var whiteLogoSrc = "images/ASENw2.png"; // Replace with the actual path to your white logo
+            var whiteLogoSrc = "images/ASENw2.png";
 
             var triggerScroll = header.offsetHeight; // Adjust this value as needed
 
@@ -162,9 +162,9 @@
                                         <li class="has-children">
                                             <a href="#" class="nav-link" style="position: relative;">First Global Challenge</a>
                                             <ul class="dropdown">
-                                                <li><a href="activity_2017.html" class="nav-link">2017</a></li>
-                                                <li><a href="activity_2018.html" class="nav-link">2018</a></li>
-                                                <li><a href="activity_2019.html" class="nav-link">2019</a></li>
+                                                <li><a href="https://teamnigeriafgc.wixsite.com/ourjourney" class="nav-link">2017</a></li>
+                                                <li><a href="https://robognigeria.wixsite.com/teamnigeria2018" class="nav-link">2018</a></li>
+                                                <li><a href="https://robognigeria.wixsite.com/fgc2019" class="nav-link">2019</a></li>
                                                 <li><a href="activity_2020.html" class="nav-link">2020</a></li>
                                                 <li><a href="activity_2021.html" class="nav-link">2021</a></li>
                                                 <li><a href="activity_2022.html" class="nav-link">2022</a></li>
@@ -172,7 +172,9 @@
                                         </li>
                                     </ul>
                                 </li>
+                                <li><a href="#review-section" class="nav-link">Testimonial</a></li>
                                 <li><a href="#faq-section" class="nav-link">FAQ</a></li>
+                                <!--<li><a href="#review-section" class="nav-link">Testimonial</a></li>-->
                                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
                             </ul>
                         </nav>
@@ -239,589 +241,97 @@
         </span>
     </a>
     </div>
-    <div class="site-section cta-big-image" id="about-section">
+
+
+    <section class="site-section cta-big-image" id="about-section">
         <div class="container">
             <div class="row mb-5 justify-content-center">
                 <div class="col-md-8 text-center">
-                    <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">
-                        About Us
-                    </h2>
+                    <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">About Us</h2>
                     <p class="lead" data-aos="fade-up" data-aos-delay="100">
                         Welcome to the Association of STEM Educators in Nigeria (ASEN), a non-profit organization dedicated to empowering young minds and nurturing future leaders in the fields of science, technology, engineering, and mathematics – collectively known as STEM.
-                        At ASEN, we believe that every child, regardless of their background, should have the opportunity to explore and excel in these critical disciplines.</p>
+                        At ASEN, we believe that every child, regardless of their background, should have the opportunity to explore and excel in these critical disciplines.
+                    </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-                    <figure class="circle-bg">
-                        <script data-pagespeed-no-defer>
-                            //<![CDATA[
-                            (function() {
-                                for (
-                                    var g =
-                                        "function" == typeof Object.defineProperties ?
-                                        Object.defineProperty :
-                                        function(b, c, a) {
-                                            if (a.get || a.set)
-                                                throw new TypeError(
-                                                    "ES3 does not support getters and setters."
-                                                );
-                                            b != Array.prototype &&
-                                                b != Object.prototype &&
-                                                (b[c] = a.value);
-                                        },
-                                        h =
-                                        "undefined" != typeof window && window === this ?
-                                        this :
-                                        "undefined" != typeof global && null != global ?
-                                        global :
-                                        this,
-                                        k = ["String", "prototype", "repeat"],
-                                        l = 0; l < k.length - 1; l++
-                                ) {
-                                    var m = k[l];
-                                    m in h || (h[m] = {});
-                                    h = h[m];
-                                }
-                                var n = k[k.length - 1],
-                                    p = h[n],
-                                    q = p ?
-                                    p :
-                                    function(b) {
-                                        var c;
-                                        if (null == this)
-                                            throw new TypeError(
-                                                "The 'this' value for String.prototype.repeat must not be null or undefined"
-                                            );
-                                        c = this + "";
-                                        if (0 > b || 1342177279 < b)
-                                            throw new RangeError("Invalid count value");
-                                        b |= 0;
-                                        for (var a = ""; b;)
-                                            if ((b & 1 && (a += c), (b >>>= 1))) c += c;
-                                        return a;
-                                    };
-                                q != p &&
-                                    null != q &&
-                                    g(h, n, {
-                                        configurable: !0,
-                                        writable: !0,
-                                        value: q,
-                                    });
-                                var t = this;
-
-                                function u(b, c) {
-                                    var a = b.split("."),
-                                        d = t;
-                                    a[0] in d || !d.execScript || d.execScript("var " + a[0]);
-                                    for (var e; a.length && (e = a.shift());)
-                                        a.length || void 0 === c ?
-                                        d[e] ?
-                                        (d = d[e]) :
-                                        (d = d[e] = {}) :
-                                        (d[e] = c);
-                                }
-
-                                function v(b) {
-                                    var c = b.length;
-                                    if (0 < c) {
-                                        for (var a = Array(c), d = 0; d < c; d++) a[d] = b[d];
-                                        return a;
-                                    }
-                                    return [];
-                                }
-
-                                function w(b) {
-                                    var c = window;
-                                    if (c.addEventListener) c.addEventListener("load", b, !1);
-                                    else if (c.attachEvent) c.attachEvent("onload", b);
-                                    else {
-                                        var a = c.onload;
-                                        c.onload = function() {
-                                            b.call(this);
-                                            a && a.call(this);
-                                        };
-                                    }
-                                }
-                                var x;
-
-                                function y(b, c, a, d, e) {
-                                    this.h = b;
-                                    this.j = c;
-                                    this.l = a;
-                                    this.f = e;
-                                    this.g = {
-                                        height: window.innerHeight ||
-                                            document.documentElement.clientHeight ||
-                                            document.body.clientHeight,
-                                        width: window.innerWidth ||
-                                            document.documentElement.clientWidth ||
-                                            document.body.clientWidth,
-                                    };
-                                    this.i = d;
-                                    this.b = {};
-                                    this.a = [];
-                                    this.c = {};
-                                }
-
-                                function z(b, c) {
-                                    var a,
-                                        d,
-                                        e = c.getAttribute("data-pagespeed-url-hash");
-                                    if ((a = e && !(e in b.c)))
-                                        if (0 >= c.offsetWidth && 0 >= c.offsetHeight) a = !1;
-                                        else {
-                                            d = c.getBoundingClientRect();
-                                            var f = document.body;
-                                            a =
-                                                d.top +
-                                                ("pageYOffset" in window ?
-                                                    window.pageYOffset :
-                                                    (document.documentElement || f.parentNode || f)
-                                                    .scrollTop);
-                                            d =
-                                                d.left +
-                                                ("pageXOffset" in window ?
-                                                    window.pageXOffset :
-                                                    (document.documentElement || f.parentNode || f)
-                                                    .scrollLeft);
-                                            f = a.toString() + "," + d;
-                                            b.b.hasOwnProperty(f) ?
-                                                (a = !1) :
-                                                ((b.b[f] = !0),
-                                                    (a = a <= b.g.height && d <= b.g.width));
-                                        }
-                                    a && (b.a.push(e), (b.c[e] = !0));
-                                }
-                                y.prototype.checkImageForCriticality = function(b) {
-                                    b.getBoundingClientRect && z(this, b);
-                                };
-                                u(
-                                    "pagespeed.CriticalImages.checkImageForCriticality",
-                                    function(b) {
-                                        x.checkImageForCriticality(b);
-                                    }
-                                );
-                                u(
-                                    "pagespeed.CriticalImages.checkCriticalImages",
-                                    function() {
-                                        A(x);
-                                    }
-                                );
-
-                                function A(b) {
-                                    b.b = {};
-                                    for (
-                                        var c = ["IMG", "INPUT"], a = [], d = 0; d < c.length;
-                                        ++d
-                                    )
-                                        a = a.concat(v(document.getElementsByTagName(c[d])));
-                                    if (a.length && a[0].getBoundingClientRect) {
-                                        for (d = 0;
-                                            (c = a[d]); ++d) z(b, c);
-                                        a = "oh=" + b.l;
-                                        b.f && (a += "&n=" + b.f);
-                                        if ((c = !!b.a.length))
-                                            for (
-                                                a += "&ci=" + encodeURIComponent(b.a[0]), d = 1; d < b.a.length;
-                                                ++d
-                                            ) {
-                                                var e = "," + encodeURIComponent(b.a[d]);
-                                                131072 >= a.length + e.length && (a += e);
-                                            }
-                                        b.i &&
-                                            ((e =
-                                                    "&rd=" + encodeURIComponent(JSON.stringify(B()))),
-                                                131072 >= a.length + e.length && (a += e),
-                                                (c = !0));
-                                        C = a;
-                                        if (c) {
-                                            d = b.h;
-                                            b = b.j;
-                                            var f;
-                                            if (window.XMLHttpRequest) f = new XMLHttpRequest();
-                                            else if (window.ActiveXObject)
-                                                try {
-                                                    f = new ActiveXObject("Msxml2.XMLHTTP");
-                                                } catch (r) {
-                                                    try {
-                                                        f = new ActiveXObject("Microsoft.XMLHTTP");
-                                                    } catch (D) {}
-                                                }
-                                            f &&
-                                                (f.open(
-                                                        "POST",
-                                                        d +
-                                                        (-1 == d.indexOf("?") ? "?" : "&") +
-                                                        "url=" +
-                                                        encodeURIComponent(b)
-                                                    ),
-                                                    f.setRequestHeader(
-                                                        "Content-Type",
-                                                        "application/x-www-form-urlencoded"
-                                                    ),
-                                                    f.send(a));
-                                        }
-                                    }
-                                }
-
-                                function B() {
-                                    var b = {},
-                                        c;
-                                    c = document.getElementsByTagName("IMG");
-                                    if (!c.length) return {};
-                                    var a = c[0];
-                                    if (!("naturalWidth" in a && "naturalHeight" in a))
-                                        return {};
-                                    for (var d = 0;
-                                        (a = c[d]); ++d) {
-                                        var e = a.getAttribute("data-pagespeed-url-hash");
-                                        e &&
-                                            ((!(e in b) &&
-                                                    0 < a.width &&
-                                                    0 < a.height &&
-                                                    0 < a.naturalWidth &&
-                                                    0 < a.naturalHeight) ||
-                                                (e in b &&
-                                                    a.width >= b[e].o &&
-                                                    a.height >= b[e].m)) &&
-                                            (b[e] = {
-                                                rw: a.width,
-                                                rh: a.height,
-                                                ow: a.naturalWidth,
-                                                oh: a.naturalHeight,
-                                            });
-                                    }
-                                    return b;
-                                }
-                                var C = "";
-                                u("pagespeed.CriticalImages.getBeaconData", function() {
-                                    return C;
-                                });
-                                u(
-                                    "pagespeed.CriticalImages.Run",
-                                    function(b, c, a, d, e, f) {
-                                        var r = new y(b, c, a, e, f);
-                                        x = r;
-                                        d &&
-                                            w(function() {
-                                                window.setTimeout(function() {
-                                                    A(r);
-                                                }, 0);
-                                            });
-                                    }
-                                );
-                            })();
-
-                            pagespeed.CriticalImages.Run(
-                                "/mod_pagespeed_beacon",
-                                "https://preview.colorlib.com/theme/finances/index.html",
-                                "-ilGEe-FWC",
-                                true,
-                                false,
-                                "2YnYwJ36Bmg"
-                            );
-                            //]]>
-                        </script>
-                        <img src="images/a1.jpg" alt="Tech Solution" class="img-fluid" data-pagespeed-url-hash="2111683793" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
-                    </figure>
-                </div>
-                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="row align-items-md-center">
+                <div class="col-lg-5 order-lg-2 ml-auto" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="text-black mb-4">OUR MISSION</h3>
                     <p>
                         Our mission is to bridge the gap between formal education and real-world skills demanded in today's rapidly evolving technological landscape. We are committed to providing hands-on learning experiences that ignite curiosity, creativity, and critical thinking
                         abilities in our students. By empowering them with knowledge and the latest technologies, we aim to foster confidence and equip them with the skills necessary to thrive in the global STEAM arena.
                     </p>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-                        <figure class="circle-bg">
-                            <script data-pagespeed-no-defer>
-                                //<![CDATA[
-                                (function() {
-                                    for (
-                                        var g =
-                                            "function" == typeof Object.defineProperties ?
-                                            Object.defineProperty :
-                                            function(b, c, a) {
-                                                if (a.get || a.set)
-                                                    throw new TypeError(
-                                                        "ES3 does not support getters and setters."
-                                                    );
-                                                b != Array.prototype &&
-                                                    b != Object.prototype &&
-                                                    (b[c] = a.value);
-                                            },
-                                            h =
-                                            "undefined" != typeof window && window === this ?
-                                            this :
-                                            "undefined" != typeof global && null != global ?
-                                            global :
-                                            this,
-                                            k = ["String", "prototype", "repeat"],
-                                            l = 0; l < k.length - 1; l++
-                                    ) {
-                                        var m = k[l];
-                                        m in h || (h[m] = {});
-                                        h = h[m];
-                                    }
-                                    var n = k[k.length - 1],
-                                        p = h[n],
-                                        q = p ?
-                                        p :
-                                        function(b) {
-                                            var c;
-                                            if (null == this)
-                                                throw new TypeError(
-                                                    "The 'this' value for String.prototype.repeat must not be null or undefined"
-                                                );
-                                            c = this + "";
-                                            if (0 > b || 1342177279 < b)
-                                                throw new RangeError("Invalid count value");
-                                            b |= 0;
-                                            for (var a = ""; b;)
-                                                if ((b & 1 && (a += c), (b >>>= 1))) c += c;
-                                            return a;
-                                        };
-                                    q != p &&
-                                        null != q &&
-                                        g(h, n, {
-                                            configurable: !0,
-                                            writable: !0,
-                                            value: q,
-                                        });
-                                    var t = this;
-
-                                    function u(b, c) {
-                                        var a = b.split("."),
-                                            d = t;
-                                        a[0] in d || !d.execScript || d.execScript("var " + a[0]);
-                                        for (var e; a.length && (e = a.shift());)
-                                            a.length || void 0 === c ?
-                                            d[e] ?
-                                            (d = d[e]) :
-                                            (d = d[e] = {}) :
-                                            (d[e] = c);
-                                    }
-
-                                    function v(b) {
-                                        var c = b.length;
-                                        if (0 < c) {
-                                            for (var a = Array(c), d = 0; d < c; d++) a[d] = b[d];
-                                            return a;
-                                        }
-                                        return [];
-                                    }
-
-                                    function w(b) {
-                                        var c = window;
-                                        if (c.addEventListener) c.addEventListener("load", b, !1);
-                                        else if (c.attachEvent) c.attachEvent("onload", b);
-                                        else {
-                                            var a = c.onload;
-                                            c.onload = function() {
-                                                b.call(this);
-                                                a && a.call(this);
-                                            };
-                                        }
-                                    }
-                                    var x;
-
-                                    function y(b, c, a, d, e) {
-                                        this.h = b;
-                                        this.j = c;
-                                        this.l = a;
-                                        this.f = e;
-                                        this.g = {
-                                            height: window.innerHeight ||
-                                                document.documentElement.clientHeight ||
-                                                document.body.clientHeight,
-                                            width: window.innerWidth ||
-                                                document.documentElement.clientWidth ||
-                                                document.body.clientWidth,
-                                        };
-                                        this.i = d;
-                                        this.b = {};
-                                        this.a = [];
-                                        this.c = {};
-                                    }
-
-                                    function z(b, c) {
-                                        var a,
-                                            d,
-                                            e = c.getAttribute("data-pagespeed-url-hash");
-                                        if ((a = e && !(e in b.c)))
-                                            if (0 >= c.offsetWidth && 0 >= c.offsetHeight) a = !1;
-                                            else {
-                                                d = c.getBoundingClientRect();
-                                                var f = document.body;
-                                                a =
-                                                    d.top +
-                                                    ("pageYOffset" in window ?
-                                                        window.pageYOffset :
-                                                        (document.documentElement || f.parentNode || f)
-                                                        .scrollTop);
-                                                d =
-                                                    d.left +
-                                                    ("pageXOffset" in window ?
-                                                        window.pageXOffset :
-                                                        (document.documentElement || f.parentNode || f)
-                                                        .scrollLeft);
-                                                f = a.toString() + "," + d;
-                                                b.b.hasOwnProperty(f) ?
-                                                    (a = !1) :
-                                                    ((b.b[f] = !0),
-                                                        (a = a <= b.g.height && d <= b.g.width));
-                                            }
-                                        a && (b.a.push(e), (b.c[e] = !0));
-                                    }
-                                    y.prototype.checkImageForCriticality = function(b) {
-                                        b.getBoundingClientRect && z(this, b);
-                                    };
-                                    u(
-                                        "pagespeed.CriticalImages.checkImageForCriticality",
-                                        function(b) {
-                                            x.checkImageForCriticality(b);
-                                        }
-                                    );
-                                    u(
-                                        "pagespeed.CriticalImages.checkCriticalImages",
-                                        function() {
-                                            A(x);
-                                        }
-                                    );
-
-                                    function A(b) {
-                                        b.b = {};
-                                        for (
-                                            var c = ["IMG", "INPUT"], a = [], d = 0; d < c.length;
-                                            ++d
-                                        )
-                                            a = a.concat(v(document.getElementsByTagName(c[d])));
-                                        if (a.length && a[0].getBoundingClientRect) {
-                                            for (d = 0;
-                                                (c = a[d]); ++d) z(b, c);
-                                            a = "oh=" + b.l;
-                                            b.f && (a += "&n=" + b.f);
-                                            if ((c = !!b.a.length))
-                                                for (
-                                                    a += "&ci=" + encodeURIComponent(b.a[0]), d = 1; d < b.a.length;
-                                                    ++d
-                                                ) {
-                                                    var e = "," + encodeURIComponent(b.a[d]);
-                                                    131072 >= a.length + e.length && (a += e);
-                                                }
-                                            b.i &&
-                                                ((e =
-                                                        "&rd=" + encodeURIComponent(JSON.stringify(B()))),
-                                                    131072 >= a.length + e.length && (a += e),
-                                                    (c = !0));
-                                            C = a;
-                                            if (c) {
-                                                d = b.h;
-                                                b = b.j;
-                                                var f;
-                                                if (window.XMLHttpRequest) f = new XMLHttpRequest();
-                                                else if (window.ActiveXObject)
-                                                    try {
-                                                        f = new ActiveXObject("Msxml2.XMLHTTP");
-                                                    } catch (r) {
-                                                        try {
-                                                            f = new ActiveXObject("Microsoft.XMLHTTP");
-                                                        } catch (D) {}
-                                                    }
-                                                f &&
-                                                    (f.open(
-                                                            "POST",
-                                                            d +
-                                                            (-1 == d.indexOf("?") ? "?" : "&") +
-                                                            "url=" +
-                                                            encodeURIComponent(b)
-                                                        ),
-                                                        f.setRequestHeader(
-                                                            "Content-Type",
-                                                            "application/x-www-form-urlencoded"
-                                                        ),
-                                                        f.send(a));
-                                            }
-                                        }
-                                    }
-
-                                    function B() {
-                                        var b = {},
-                                            c;
-                                        c = document.getElementsByTagName("IMG");
-                                        if (!c.length) return {};
-                                        var a = c[0];
-                                        if (!("naturalWidth" in a && "naturalHeight" in a))
-                                            return {};
-                                        for (var d = 0;
-                                            (a = c[d]); ++d) {
-                                            var e = a.getAttribute("data-pagespeed-url-hash");
-                                            e &&
-                                                ((!(e in b) &&
-                                                        0 < a.width &&
-                                                        0 < a.height &&
-                                                        0 < a.naturalWidth &&
-                                                        0 < a.naturalHeight) ||
-                                                    (e in b &&
-                                                        a.width >= b[e].o &&
-                                                        a.height >= b[e].m)) &&
-                                                (b[e] = {
-                                                    rw: a.width,
-                                                    rh: a.height,
-                                                    ow: a.naturalWidth,
-                                                    oh: a.naturalHeight,
-                                                });
-                                        }
-                                        return b;
-                                    }
-                                    var C = "";
-                                    u("pagespeed.CriticalImages.getBeaconData", function() {
-                                        return C;
-                                    });
-                                    u(
-                                        "pagespeed.CriticalImages.Run",
-                                        function(b, c, a, d, e, f) {
-                                            var r = new y(b, c, a, e, f);
-                                            x = r;
-                                            d &&
-                                                w(function() {
-                                                    window.setTimeout(function() {
-                                                        A(r);
-                                                    }, 0);
-                                                });
-                                        }
-                                    );
-                                })();
-
-                                pagespeed.CriticalImages.Run(
-                                    "/mod_pagespeed_beacon",
-                                    "https://preview.colorlib.com/theme/finances/index.html",
-                                    "-ilGEe-FWC",
-                                    true,
-                                    false,
-                                    "2YnYwJ36Bmg"
-                                );
-                                //]]>
-                            </script>
-                            <img src="images/a2.jpg" alt="Tech Solution" class="img-fluid" data-pagespeed-url-hash="2111683793" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
-                        </figure>
-                    </div>
-                    <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="text-black mb-4">OUR VISION</h3>
-                        <p>
-                            We envision a future where access to quality STEAM education is democratized, and barriers that limit potential are torn down. Through our initiatives, we aspire to make Nigeria a shining beacon of tech and innovation in Africa, where our students become
-                            not just beneficiaries of knowledge but also the drivers of transformational change.
-                        </p>
-                    </div>
+                <div class="col-lg-6 mb-5 order-lg-1" data-aos="fade-up" data-aos-delay="">
+                    <figure class="circle-bg">
+                        <img src="images/a1.jpg" alt="Tech Solution" class="img-fluid fade-in" />
+                    </figure>
+                </div>
+            </div>
+            <div class="row align-items-md-center">
+                <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                    <figure class="circle-bg">
+                        <img src="images/a2.jpg" alt="Tech Solution" class="img-fluid fade-in" />
+                    </figure>
+                </div>
+                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-black mb-4">OUR VISION</h3>
+                    <p>
+                        We envision a future where access to quality STEAM education is democratized, and barriers that limit potential are torn down. Through our initiatives, we aspire to make Nigeria a shining beacon of tech and innovation in Africa, where our students become
+                        not just beneficiaries of knowledge but also the drivers of transformational change.
+                    </p>
                 </div>
             </div>
         </div>
+    </section>
 
-    </div>
-    </div>
+    <script>
+        // Add a class to trigger the fade-in animation when the section comes into view
+        const aboutSection = document.getElementById("about-section");
+        const fadeInElements = aboutSection.querySelectorAll(".fade-in");
+
+        function checkFadeIn() {
+            const windowHeight = window.innerHeight;
+            fadeInElements.forEach((element) => {
+                const rect = element.getBoundingClientRect();
+                if (rect.top < windowHeight) {
+                    element.classList.add("visible");
+                }
+            });
+        }
+
+        window.addEventListener("scroll", checkFadeIn);
+        checkFadeIn(); // Check on initial load
+    </script>
+
     <section class="site-section border-bottom" id="team-section">
+        <style>
+            /* Add the provided CSS here */
+            
+            .team-member {
+                text-align: center;
+            }
+            
+            .team-member figure {
+                margin: 0;
+                padding: 0;
+                position: relative;
+                overflow: hidden;
+                display: inline-block;
+                transition: transform 0.3s ease;
+            }
+            
+            .team-member figure:hover {
+                transform: translateY(-10px);
+            }
+            
+            .team-member .team-info {
+                background-color: #f8f9fa;
+                padding: 15px;
+                text-align: left;
+            }
+            /* Add the rest of the provided CSS here */
+        </style>
         <div class="container">
             <div class="row mb-5 justify-content-center">
                 <div class="col-md-8 text-center">
@@ -835,24 +345,16 @@
                 </div>
             </div>
             <div class="row">
+                <!-- Team member: Emeritus Prof. Soga Sofola -->
                 <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <figure>
                             <ul class="social">
-                                <!--<li>
-                                                            <a href="mailto:akinteweabimbola19@gmail.com"><span class="fa fa-envelope"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://twitter.com/abimbola_ab"><span class="fa fa-twitter"></span></a>
-                                                        </li>-->
                                 <li>
-                                    <a href="https://www.linkedin.com/in/abimbola-akintewe-76036a236"><span class="fa fa-linkedin"></span></a>
+                                    <a href="https://www.linkedin.com/in/soga-sofola-44958215/"><span class="fa fa-linkedin"></span></a>
                                 </li>
-                                <!--<li>
-                                                            <a href="https://www.instagram.com/_abimbola.a/"><span class="fa fa-instagram"></span></a>
-                                                        </li>-->
                             </ul>
-                            <img src="images/image.png" alt="Image" height="280px" class="img-fluid" data-pagespeed-url-hash="3324163588" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                            <img src="images/image.png" alt="Emeritus Prof. Soga Sofola" class="img-fluid team-member-img" data-pagespeed-url-hash="3324163588" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                         </figure>
                         <div class="p-3">
                             <h3>Emeritus Prof. Soga Sofola</h3>
@@ -860,27 +362,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="">
+                <!-- Repeat the block for each team member -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <figure>
                             <ul class="social">
-                                <!--<li>
-                                                            <a href="mailto:ogunderoayodeji@gmail.com"><i class="fa fa-envelope "></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://twitter.com/micheal__og"><span class="fa fa-twitter ic"></i></span></a>
-                                                        </li>-->
                                 <li>
-                                    <a href="https://www.linkedin.com/in/micheal-ogundero-33641478/"><span class="fa fa-linkedin"></i></span></a>
+                                    <a href="https://www.linkedin.com/in/roboglobal/"><span class="fa fa-linkedin"></span></a>
                                 </li>
-                                <!--<li>
-                                                            <a href="https://github.com/EngrMikolo"><span class="fa fa-github"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.instagram.com/micheal__og/"><span class="fa fa-instagram"></span></a>
-                                                        </li>-->
                             </ul>
-                            <img src="images/remi2.png" alt="Image" height="250px" class="img-fluid" data-pagespeed-url-hash="2735163746" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                            <img src="images/remi2.png" alt="Mrs. Remi Willoughby, M.ED" class="img-fluid team-member-img" data-pagespeed-url-hash="3324163588" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                         </figure>
                         <div class="p-3">
                             <h3>Mrs. Remi Willoughby, M.ED</h3>
@@ -888,27 +379,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <figure>
                             <ul class="social">
-                                <!-- <li>
-                                                            <a href="mailto:contact.temitoyosi@gmail.com"><span class="fa fa-envelope"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.twitter.com/thebutterrfly"><span class="fa fa-twitter"></span></a>
-                                                        </li>-->
                                 <li>
                                     <a href="https://www.linkedin.com/in/faisal-jarmakani-b779b828/"><span class="fa fa-linkedin"></span></a>
                                 </li>
-                                <!-- <li>
-                                                            <a href="https://www.github.com/warythebutterfly"><span class="fa fa-github"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.instagram.com/the.butterrfly"><span class="fa fa-instagram"></span></a>
-                                                        </li> -->
                             </ul>
-                            <img src="images/fj1.png" alt="Image" height="300px" class="img-fluid" data-pagespeed-url-hash="3029663667" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                            <img src="images/fj1.png" alt="Faisal Jarmakani" class="img-fluid team-member-img" data-pagespeed-url-hash="3324163588" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                         </figure>
                         <div class="p-3">
                             <h3>Faisal Jarmakani</h3>
@@ -916,27 +395,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <figure>
                             <ul class="social">
-                                <!-- <li>
-                                                            <a href="mailto:contact.temitoyosi@gmail.com"><span class="fa fa-envelope"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.twitter.com/thebutterrfly"><span class="fa fa-twitter"></span></a>
-                                                        </li>-->
                                 <li>
-                                    <a href="https://www.linkedin.com/in/faisal-jarmakani-b779b828/"><span class="fa fa-linkedin"></span></a>
+                                    <a href="https://www.linkedin.com/in/omar-jarmakani-a0255250/"><span class="fa fa-linkedin"></span></a>
                                 </li>
-                                <!-- <li>
-                                                            <a href="https://www.github.com/warythebutterfly"><span class="fa fa-github"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.instagram.com/the.butterrfly"><span class="fa fa-instagram"></span></a>
-                                                        </li> -->
                             </ul>
-                            <img src="images/oj2.png" alt="Image" height="300px" class="img-fluid" data-pagespeed-url-hash="3029663667" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                            <img src="images/oj2.png" alt="Emeritus Prof. Soga Sofola" class="img-fluid team-member-img" data-pagespeed-url-hash="3324163588" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                         </figure>
                         <div class="p-3">
                             <h3>Omar Jarmakani</h3>
@@ -944,27 +411,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <figure>
                             <ul class="social">
-                                <!-- <li>
-                                                            <a href="mailto:contact.temitoyosi@gmail.com"><span class="fa fa-envelope"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.twitter.com/thebutterrfly"><span class="fa fa-twitter"></span></a>
-                                                        </li>-->
                                 <li>
-                                    <a href="https://www.linkedin.com/in/faisal-jarmakani-b779b828/"><span class="fa fa-linkedin"></span></a>
+                                    <a href="https://www.linkedin.com/in/adeniyi-talabi/"><span class="fa fa-linkedin"></span></a>
                                 </li>
-                                <!-- <li>
-                                                            <a href="https://www.github.com/warythebutterfly"><span class="fa fa-github"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.instagram.com/the.butterrfly"><span class="fa fa-instagram"></span></a>
-                                                        </li> -->
                             </ul>
-                            <img src="images/niyi.png" alt="Image" height="300px" class="img-fluid" data-pagespeed-url-hash="3029663667" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                            <img src="images/niyi.png" alt="Adeniyi Talabi" class="img-fluid team-member-img" data-pagespeed-url-hash="3324163588" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                         </figure>
                         <div class="p-3">
                             <h3>Adeniyi Talabi</h3>
@@ -972,27 +427,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <figure>
                             <ul class="social">
-                                <!-- <li>
-                                                            <a href="mailto:contact.temitoyosi@gmail.com"><span class="fa fa-envelope"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.twitter.com/thebutterrfly"><span class="fa fa-twitter"></span></a>
-                                                        </li>-->
                                 <li>
-                                    <a href="https://www.linkedin.com/in/faisal-jarmakani-b779b828/"><span class="fa fa-linkedin"></span></a>
+                                    <a href="https://www.linkedin.com/in/sunday-afariogun-367b8a149/"><span class="fa fa-linkedin"></span></a>
                                 </li>
-                                <!-- <li>
-                                                            <a href="https://www.github.com/warythebutterfly"><span class="fa fa-github"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.instagram.com/the.butterrfly"><span class="fa fa-instagram"></span></a>
-                                                        </li> -->
                             </ul>
-                            <img src="images/sunday.png" alt="Image" height="300px" class="img-fluid" data-pagespeed-url-hash="3029663667" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                            <img src="images/sunday.png" alt="Sunday Afariogun" class="img-fluid team-member-img" data-pagespeed-url-hash="3324163588" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                         </figure>
                         <div class="p-3">
                             <h3>Sunday Afariogun</h3>
@@ -1000,27 +443,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <figure>
                             <ul class="social">
-                                <!-- <li>
-                                                            <a href="mailto:contact.temitoyosi@gmail.com"><span class="fa fa-envelope"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.twitter.com/thebutterrfly"><span class="fa fa-twitter"></span></a>
-                                                        </li>-->
                                 <li>
-                                    <a href="https://www.linkedin.com/in/faisal-jarmakani-b779b828/"><span class="fa fa-linkedin"></span></a>
+                                    <a href="https://www.linkedin.com/in/olayinka-ibikunle-robotics/"><span class="fa fa-linkedin"></span></a>
                                 </li>
-                                <!-- <li>
-                                                            <a href="https://www.github.com/warythebutterfly"><span class="fa fa-github"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.instagram.com/the.butterrfly"><span class="fa fa-instagram"></span></a>
-                                                        </li> -->
                             </ul>
-                            <img src="images/yinka.png" alt="Image" height="300px" class="img-fluid" data-pagespeed-url-hash="3029663667" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                            <img src="images/yinka.png" alt="Olayinka Ibikunle" class="img-fluid team-member-img" data-pagespeed-url-hash="3324163588" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                         </figure>
                         <div class="p-3">
                             <h3>Olayinka Ibikunle</h3>
@@ -1028,27 +459,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <figure>
                             <ul class="social">
-                                <!-- <li>
-                                                            <a href="mailto:contact.temitoyosi@gmail.com"><span class="fa fa-envelope"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.twitter.com/thebutterrfly"><span class="fa fa-twitter"></span></a>
-                                                        </li>-->
                                 <li>
-                                    <a href="https://www.linkedin.com/in/faisal-jarmakani-b779b828/"><span class="fa fa-linkedin"></span></a>
+                                    <a href="https://www.linkedin.com/in/tanitolorun-akinyemi/"><span class="fa fa-linkedin"></span></a>
                                 </li>
-                                <!-- <li>
-                                                            <a href="https://www.github.com/warythebutterfly"><span class="fa fa-github"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.instagram.com/the.butterrfly"><span class="fa fa-instagram"></span></a>
-                                                        </li> -->
                             </ul>
-                            <img src="images/tani.png" alt="Image" height="300px" class="img-fluid" data-pagespeed-url-hash="3029663667" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                            <img src="images/tani.png" alt="Tanitolorun Akinyemi" class="img-fluid team-member-img" data-pagespeed-url-hash="3324163588" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                         </figure>
                         <div class="p-3">
                             <h3>Tanitolorun Akinyemi</h3>
@@ -1056,27 +475,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <figure>
-                            <ul class="social">
-                                <!-- <li>
-                                                            <a href="mailto:contact.temitoyosi@gmail.com"><span class="fa fa-envelope"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.twitter.com/thebutterrfly"><span class="fa fa-twitter"></span></a>
-                                                        </li>-->
-                                <li>
-                                    <a href="https://www.linkedin.com/in/faisal-jarmakani-b779b828/"><span class="fa fa-linkedin"></span></a>
-                                </li>
-                                <!-- <li>
-                                                            <a href="https://www.github.com/warythebutterfly"><span class="fa fa-github"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.instagram.com/the.butterrfly"><span class="fa fa-instagram"></span></a>
-                                                        </li> -->
-                            </ul>
-                            <img src="images/tofunmi2.jpg" alt="Image" height="300px" class="img-fluid" data-pagespeed-url-hash="3029663667" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                            <!--<ul class="social">
+                            <li>
+                                <a href="https://www.linkedin.com/in/tanitolorun-akinyemi/"><span class="fa fa-linkedin"></span></a>
+                            </li>
+                        </ul>-->
+                            <img src="images/tani.png" alt="Tanitolorun Akinyemi" class="img-fluid team-member-img" data-pagespeed-url-hash="3324163588" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                         </figure>
                         <div class="p-3">
                             <h3>Tirenioluwa Shobande</h3>
@@ -1084,27 +491,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <figure>
                             <!--<ul class="social">
-                                                        <li>
-                                                            <a href="mailto:contact.temitoyosi@gmail.com"><span class="fa fa-envelope"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.twitter.com/thebutterrfly"><span class="fa fa-twitter"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.linkedin.com/in/faisal-jarmakani-b779b828/"><span class="fa fa-linkedin"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.github.com/warythebutterfly"><span class="fa fa-github"></span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="https://www.instagram.com/the.butterrfly"><span class="fa fa-instagram"></span></a>
-                                                        </li> 
-                                                    </ul>-->
-                            <img src="images/tofunmi2.jpg" alt="Image" height="300px" class="img-fluid" data-pagespeed-url-hash="3029663667" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                            <li>
+                                <a href="https://www.linkedin.com/in/tanitolorun-akinyemi/"><span class="fa fa-linkedin"></span></a>
+                            </li>
+                        </ul>-->
+                            <img src="images/tofunmi2.jpg" alt="Tofunmi Olusodo" class="img-fluid team-member-img" data-pagespeed-url-hash="3324163588" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                         </figure>
                         <div class="p-3">
                             <h3>Tofunmi Olusodo</h3>
@@ -1112,198 +507,96 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
 
-    <!-- <section class="site-section" id="gallery-section" data-aos="fade">
+
+    <!--<section class="site-section" id="gallery-section" data-aos="fade">
         <div class="container">
-          <div class="row mb-3">
-            <div class="col-12 text-center">
-              <h2 class="section-title mb-3">Some of our works</h2>
+            <div class="row mb-3">
+                <div class="col-12 text-center">
+                    <h2 class="section-title mb-3">Some of our works</h2>
+                </div>
             </div>
-          </div>
-          <div id="posts" class="row no-gutter">
-            <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a href="images/allocator.png" class="item-wrap fancybox">
-                <span ><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/allocator.png"
-                  data-pagespeed-url-hash="1817183872"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
+            <div id="posts" class="row no-gutter">
+                <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/allocator.png" class="item-wrap fancybox">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/allocator.png" data-pagespeed-url-hash="1817183872" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/allocatorindex.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/allocatorindex.png" data-pagespeed-url-hash="2111683793" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/cervitech.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/cervitech.png" data-pagespeed-url-hash="2406183714" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/cervitechapp.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/cervitechapp.png" data-pagespeed-url-hash="2995183556" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/cervitechweb.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/cervitechweb.jpg" data-pagespeed-url-hash="1817183872" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/stapp5.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/stapp5.jpg" data-pagespeed-url-hash="1817183872" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/stapp.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/stapp.png" data-pagespeed-url-hash="1817183872" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/stapp3.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/stapp3.png" data-pagespeed-url-hash="1817183872" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/stapp2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/stapp2.jpg" data-pagespeed-url-hash="1817183872" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/stapp4.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/stapp4.png" data-pagespeed-url-hash="1817183872" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/zka2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/zka2.jpg" data-pagespeed-url-hash="1817183872" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <a href="images/zka.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+                        <span><i class="fa fa-search"></i></span>
+                        <img class="img-fluid" src="images/zka.jpg" data-pagespeed-url-hash="1817183872" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
             </div>
-            <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a
-                href="images/allocatorindex.png"
-                class="item-wrap fancybox"
-                data-fancybox="gallery2"
-              >
-                <span><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/allocatorindex.png"
-                  data-pagespeed-url-hash="2111683793"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
-            </div>
-            <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a
-                href="images/cervitech.png"
-                class="item-wrap fancybox"
-                data-fancybox="gallery2"
-              >
-                <span><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/cervitech.png"
-                  data-pagespeed-url-hash="2406183714"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
-            </div>
-            <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a
-                href="images/cervitechapp.png"
-                class="item-wrap fancybox"
-                data-fancybox="gallery2"
-              >
-                <span><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/cervitechapp.png"
-                  data-pagespeed-url-hash="2995183556"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
-            </div>
-            <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a
-                href="images/cervitechweb.jpg"
-                class="item-wrap fancybox"
-                data-fancybox="gallery2"
-              >
-                <span><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/cervitechweb.jpg"
-                  data-pagespeed-url-hash="1817183872"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
-            </div>
-            <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a
-                href="images/stapp5.jpg"
-                class="item-wrap fancybox"
-                data-fancybox="gallery2"
-              >
-                <span><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/stapp5.jpg"
-                  data-pagespeed-url-hash="1817183872"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
-            </div>
-            <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a
-                href="images/stapp.png"
-                class="item-wrap fancybox"
-                data-fancybox="gallery2"
-              >
-                <span><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/stapp.png"
-                  data-pagespeed-url-hash="1817183872"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
-            </div>
-            <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a
-                href="images/stapp3.png"
-                class="item-wrap fancybox"
-                data-fancybox="gallery2"
-              >
-                <span><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/stapp3.png"
-                  data-pagespeed-url-hash="1817183872"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
-            </div>
-            <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a
-                href="images/stapp2.jpg"
-                class="item-wrap fancybox"
-                data-fancybox="gallery2"
-              >
-                <span><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/stapp2.jpg"
-                  data-pagespeed-url-hash="1817183872"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
-            </div>
-            <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a
-                href="images/stapp4.png"
-                class="item-wrap fancybox"
-                data-fancybox="gallery2"
-              >
-                <span><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/stapp4.png"
-                  data-pagespeed-url-hash="1817183872"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
-            </div>
-            <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a
-                href="images/zka2.jpg"
-                class="item-wrap fancybox"
-                data-fancybox="gallery2"
-              >
-                <span><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/zka2.jpg"
-                  data-pagespeed-url-hash="1817183872"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
-            </div>
-            <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-              <a
-                href="images/zka.jpg"
-                class="item-wrap fancybox"
-                data-fancybox="gallery2"
-              >
-                <span><i class="fa fa-search"></i></span>
-                <img
-                  class="img-fluid"
-                  src="images/zka.jpg"
-                  data-pagespeed-url-hash="1817183872"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-                />
-              </a>
-            </div>
-          </div>
         </div>
-      </section> -->
+    </section>-->
 
 
     <!--   <div class="row mb-5">
@@ -1576,45 +869,45 @@
                 <div class="col-lg-6">
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="text-black h4 mb-4">
-                            Can I pay for a course in installments?
+                            What is the purpose of the association?
+
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima earum fugiat reiciendis velit ad, amet facilis perferendis magnam odit asperiores. Ex autem, esse amet reiciendis libero dolores nobis maiores corporis.
+                            The purpose of our association is to promote and advance STEM education in Nigeria by bringing together educators in the fields of science, technology, engineering, and mathematics.
                         </p>
                     </div>
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="text-black h4 mb-4">
-                            What is the refund policy?
+                            How can I become a member of the association?
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima earum fugiat reiciendis velit ad, amet facilis perferendis magnam odit asperiores. Ex autem, esse amet reiciendis libero dolores nobis maiores corporis.
+                            To become a member, you can visit our website and fill out the membership form.(the google forms we plan on creating). Once your application is reviewed and approved, you will officially become a member of our association.
                         </p>
                     </div>
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="text-black h4 mb-4">
-                            How much does a website cost?
+                            What benefits do members receive?
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima earum fugiat reiciendis velit ad, amet facilis perferendis magnam odit asperiores. Ex autem, esse amet reiciendis libero dolores nobis maiores corporis.
-                        </p>
+                            As a member, you will have access to exclusive resources, professional development opportunities, networking events, and the chance to collaborate with other STEM educators across Nigeria. </p>
                     </div>
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="text-black h4 mb-4">
-                            How long does it take to build a website?
+                            How can I get involved in the association's activities?
+
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima earum fugiat reiciendis velit ad, amet facilis perferendis magnam odit asperiores. Ex autem, esse amet reiciendis libero dolores nobis maiores corporis.
+                            There are several ways to get involved. You can volunteer for already existing committees (fgc etc.) , contribute to our publications, or even organize your own STEM-related initiatives with our support.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="text-black h4 mb-4">
-                            Can I edit my website after it's built?
+                            How can I contact the association for further inquiries?
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima earum fugiat reiciendis velit ad, amet facilis perferendis magnam odit asperiores. Ex autem, esse amet reiciendis libero dolores nobis maiores corporis.
-                        </p>
+                            f you have any further inquiries, you can reach out to us through our website contact form or send us an email at assennigeria17@gmail.com. We'll be happy to assist you! </p>
                     </div>
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="text-black h4 mb-4">
