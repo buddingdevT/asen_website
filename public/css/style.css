@@ -12291,8 +12291,106 @@ figure figcaption {
     transform: translate(-50%, -50%);
 }
 
+/*Achievements style*/
+.achievements {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .achievements h2 {
+    margin: 0 0 1rem;
+    text-align: center;
+  }
+  
+  .achievements p {
+    margin: 0 0 2rem;
+    text-align: center;
+  }
+  
+  .achievements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.achievements li {
+    width: 15rem;
+    height: 8rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 
-/* New Stye */
+.achievements li h3 {
+    text-align: center;
+}
+
+.achievements li span {
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.achievements li:hover {
+    transform: scale(1.2);
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+/* Different border color for each box */
+
+.achievements li:nth-child(1) {
+    border-color: #FF0000;
+}
+
+.achievements li:nth-child(2) {
+    border-color: #00FF00;
+}
+
+.achievements li:nth-child(3) {
+    border-color: #0000FF;
+}
+
+/* Random border color for each box 
+
+.achievements li {
+    border-color: hsl(Math.random() * 360, 100%, 50%);
+}*/
+
+
+/*.achievements li span:hover {
+    font-size: 3rem;
+    font-weight: bold;
+} */
+
+  .achievements h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .achievements span {
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .achievements a {
+    display: block;
+    margin: 1rem 0 0;
+    text-align: center;
+    color: #333;
+  }
+/*Achievement style end*/  
 
 .single-text .owl-dots {
     margin-top: 2rem;

@@ -25,6 +25,8 @@
         "fs": "^0.0.1-security",
         "handlebars": "^4.7.7",
         "html": "^1.0.0",
+        "jquery": "^3.7.1",
+        "nodeman": "^1.1.2",
         "paginate": "^0.2.0",
         "pg": "^8.9.0"
     },
