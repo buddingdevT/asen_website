@@ -9190,16 +9190,7 @@ a.text-primary:hover {
 
 
 /**
-   * Owl Carousel v2.2.1
-   * Copyright 2013-2017 David Deutsch
-   * Licensed under  ()
-   */
-
-
-/**
-   * Owl Carousel v2.2.1
-   * Copyright 2013-2017 David Deutsch
-   * Licensed under  ()
+   * Owl Carousel
    */
 
 body.compensate-for-scrollbar {
@@ -9841,13 +9832,6 @@ body.compensate-for-scrollbar {
 }
 
 
-/*!
-   * Datepicker for Bootstrap v1.6.4 (https://github.com/eternicode/bootstrap-datepicker)
-   *
-   * Copyright 2012 Stefan Petre
-   * Improvements by Andrew Rowls
-   * Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-   */
 
 .datepicker {
     padding: 4px;
@@ -10352,13 +10336,6 @@ body.compensate-for-scrollbar {
 }
 
 
-/*# sourceMappingURL=bootstrap-datepicker.css.map */
-
-
-/*
-        Flaticon icon font: Flaticon
-        Creation date: 03/04/2019 06:02
-        */
 
 @font-face {
     font-family: "Flaticon";
@@ -10827,10 +10804,7 @@ body[data-aos-easing=ease-in-out] [data-aos] {
 }
 
 
-/*# sourceMappingURL=aos.css.map*/
 
-
-/* Base */
 
 html {
     overflow-x: hidden;
@@ -12340,8 +12314,8 @@ figure figcaption {
     transition: all 0.3s ease-in-out;
 }
 .achievements li:hover {
-    transform: scale(1.2);
-    font-size: 3rem;
+    transform: scale(1.1);
+    font-size: 2.5rem;
     font-weight: bold;
     color: black;
 }
@@ -12374,7 +12348,7 @@ figure figcaption {
 
   .achievements h3 {
     margin: 0 0 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
   
   .achievements span {
